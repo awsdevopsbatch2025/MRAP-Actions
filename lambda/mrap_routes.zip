@@ -1,0 +1,5 @@
+cd MRAP-Actions
+mkdir -p lambda
+# (place mrap_routes.py inside lambda/)
+cd lambda
+zip mrap_routes.zip mrap_routes.py
